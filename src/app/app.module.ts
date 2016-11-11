@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { UserDataComponent } from './user-data/user-data.component';
+import { Componente2Component } from './carpeta1/componente2/componente2.component';
+
+import './rxjs-operators';  // Import only operators for Obserbables
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UserDataComponent,
+    Componente2Component
   ],
   imports: [
     BrowserModule,
