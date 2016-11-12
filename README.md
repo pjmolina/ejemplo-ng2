@@ -1,6 +1,9 @@
 # Master00
 Ejemplo con travis.
 
+[![Build Status](https://travis-ci.org/pjmolina/ejemplo-ng2.svg?branch=master)](https://travis-ci.org/pjmolina/ejemplo-ng2)
+
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
 
 ## Development server
