@@ -18,12 +18,12 @@ export class UserService {
   providers: [ UserService ]
 })
 export class UserDataComponent implements OnInit, OnDestroy {
-  @Input() 
+  @Input()
   nombre: string;
 
-  @Input() 
+  @Input()
   apellido: string;
-  
+
   constructor(private userService: UserService) {
   }
 
@@ -31,12 +31,12 @@ export class UserDataComponent implements OnInit, OnDestroy {
     // let res = this.userService.getUser();
     // this.nombre = res.nombre;
     // this.apellido = res.apellido;
-    console.log("init");
-    
+    console.log('init');
+
   }
 
   ngOnDestroy() {
-    console.log("destroy");
+    console.log('destroy');
   }
 
   render() {

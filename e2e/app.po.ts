@@ -8,4 +8,8 @@ export class Master00Page {
   getParagraphText() {
     return element(by.css('app-root h1')).getText();
   }
+
+  getFirstH1() {
+    return element.all(by.css('h1')).first().getText();
+  }
 }

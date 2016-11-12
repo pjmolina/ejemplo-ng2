@@ -2,13 +2,16 @@
 
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { UserDataComponent } from './user-data/user-data.component';
+import { LoggerService } from './logger.service';
 
 describe('App: Master00', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent, UserDataComponent
       ],
+      providers: [ LoggerService ]
     });
   });
 

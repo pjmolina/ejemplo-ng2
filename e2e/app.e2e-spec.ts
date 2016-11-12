@@ -11,4 +11,11 @@ describe('master00 App', function() {
     page.navigateTo();
     expect(page.getParagraphText()).toEqual('app works!');
   });
+
+  it('first h1 should be hola', () => {
+    page.navigateTo();
+    expect(page.getFirstH1()).toEqual('Hola');
+  });
+
+
 });
